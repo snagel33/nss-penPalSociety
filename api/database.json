@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "id": 1,
+            "name": "Steve"
+        }
+    ],
+    "recipients": [
+        {
+            "id": 10,
+            "name": "Person 1"
+        }
+    ],
+    "letters": [
+        {
+            "author": "Steve",
+            "letter": "Hello",
+            "topics": "Friendly",
+            "Recipient": "Person 1"
+        }
+    ]
+}
