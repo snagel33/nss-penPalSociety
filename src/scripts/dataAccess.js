@@ -52,3 +52,19 @@ export const getAuthors = () => {
 export const getRecipients = () => {
     return applicationState.recipients.map(recipient => ({...recipient}))
 }
+
+export const sendLetter = (userServiceLetter) => {
+    const fetchOptions = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(userServiceLetter)
+    }
+
+    return fetch(`${API}/letters`, fetchOptions)
+        .then(response => response.json())
+        .then(() => {
+
+        })
+}

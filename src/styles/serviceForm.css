@@ -9,3 +9,22 @@ div {
     background-color: rgb(227, 229, 231);
     color: rgb(0, 0, 0);
 }
+
+.label {
+    font-size: x-large;
+
+}
+
+textArea {
+    width:700px;
+    height: 300px;
+}
+
+.field {
+    width: 200px;
+}
+
+.topic {
+    display: flex;
+    flex-direction: row;
+}

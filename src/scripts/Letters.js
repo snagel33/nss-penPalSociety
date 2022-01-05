@@ -1,4 +1,4 @@
-import { getLetters, getAuthors } from "./dataAccess.js"
+import { getLetters, getAuthors, getRecipients } from "./dataAccess.js"
 
 export const Letters = () => {
     const letters = getLetters()
@@ -15,10 +15,14 @@ export const Letters = () => {
 }
 
 const convertLettersToListElement = (letter) => {
-    const authors = getAuthors()
+    const recipient = getRecipients()
+    const author = getAuthors()
+
     return `
         <li> 
+        Dear ${recipient.name} (insert email here),
             ${letter.letter}
-            ${authors.name}
+        Sincerely, ${author.name} (insert email here)
+        Sent on (insert date here)
         </li>`
 }

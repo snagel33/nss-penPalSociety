@@ -1,22 +1,73 @@
 {
-    "authors": [
-        {
-            "id": 1,
-            "name": "Steve"
-        }
-    ],
-    "recipients": [
-        {
-            "id": 10,
-            "name": "Person 1"
-        }
-    ],
-    "letters": [
-        {
-            "author": "Steve",
-            "letter": "Hello",
-            "topics": "Friendly",
-            "Recipient": "Person 1"
-        }
-    ]
+  "authors": [
+    {
+      "id": 1,
+      "name": "Steve"
+    },
+    {
+      "id": 2,
+      "name": "Author 2"
+    },
+    {
+      "id": 3,
+      "name": "Author 3"
+    }
+  ],
+  "recipients": [
+    {
+      "id": 10,
+      "name": "Person 1"
+    },
+    {
+      "id": 11,
+      "name": "Person 2"
+    },
+    {
+      "id": 12,
+      "name": "Person 3"
+    }
+  ],
+  "letters": [
+    {
+      "author": "Steve",
+      "letter": "Hello",
+      "topic": "Friendly",
+      "recipient": "Person 1",
+      "id": 1
+    },
+    {
+      "author": "Steve",
+      "letter": "Test 1",
+      "topic": "friendly",
+      "recipient": "Person 1",
+      "id": 2
+    },
+    {
+      "author": "Author 2",
+      "letter": "Test 2",
+      "topic": "family",
+      "recipient": "Person 2",
+      "id": 3
+    },
+    {
+      "author": "Author 2",
+      "letter": "Test 3",
+      "topic": "congratulations",
+      "recipient": "Person 3",
+      "id": 4
+    },
+    {
+      "letter": "Test 4",
+      "topic": "family",
+      "recipient": "Person 2",
+      "id": 5
+    },
+    {
+      "author": "Author 2",
+      "letter": "Test 6",
+      "topic": "friendly",
+      "recipient": "Person 2",
+      "id": 6
+    }
+  ]
 }
