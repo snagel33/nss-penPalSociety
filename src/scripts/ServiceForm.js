@@ -11,7 +11,7 @@ export const ServiceForm = () => {
             ${
                 authors.map(
                     author => {
-                        return `<option value="${author.name}">${author.name}</option>`
+                        return `<option value="${author.id}">${author.name}</option>`
                     }
                 ).join("")
             }
@@ -49,7 +49,7 @@ export const ServiceForm = () => {
             ${
                 recipients.map(
                     recipient => {
-                        return `<option value="${recipient.name}">${recipient.name}</option>`
+                        return `<option value="${recipient.id}">${recipient.name}</option>`
                     }
                 ).join("")
             }

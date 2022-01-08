@@ -65,6 +65,6 @@ export const sendLetter = (userServiceLetter) => {
     return fetch(`${API}/letters`, fetchOptions)
         .then(response => response.json())
         .then(() => {
-
+            mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
         })
 }
