@@ -23,7 +23,7 @@ const convertLettersToListElement = (letter) => {
     return `
     <li class="letterBox">
         <p>Dear ${foundRecipient.name} (${foundRecipient.email}),</p>
-        ${letter.letter}.
+        ${letter.letter}
         <p>Sincerely, ${foundAuthor.name} (${foundAuthor.email})</p>
         <button>${letter.topic}</button>
         <p>Sent on ${date}</p>

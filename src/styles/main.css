@@ -3,5 +3,13 @@
 
 body {
     background-color: #ffffff;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+head {
+
+    margin-left: 5%;
 }
 

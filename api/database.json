@@ -61,6 +61,13 @@
       "topic": "family",
       "recipient": "10",
       "id": 4
+    },
+    {
+      "author": "2",
+      "letter": "Test 99.",
+      "topic": "friendly",
+      "recipient": "11",
+      "id": 5
     }
   ]
 }
