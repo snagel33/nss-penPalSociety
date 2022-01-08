@@ -1,0 +1,22 @@
+
+.letterBox {
+    background-color: #919aeb;
+    width: 690px;
+    margin-left: -40px;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    border: solid 2px black;
+    border-radius: 2%;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+   background-color: #d93d27;
+   color: white;
+   border-radius: 12px;
+}

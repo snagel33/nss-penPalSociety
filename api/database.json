@@ -54,6 +54,13 @@
       "topic": "business",
       "recipient": "10",
       "id": 3
+    },
+    {
+      "author": "2",
+      "letter": "Test 5",
+      "topic": "family",
+      "recipient": "10",
+      "id": 4
     }
   ]
 }

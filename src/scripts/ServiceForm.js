@@ -23,9 +23,8 @@ export const ServiceForm = () => {
             <textArea type="text" name="letterBox" class="input" /></textArea>
         </div>
         
+        <label class="label" for="topics">Topics</label>
         <div class="topic">
-            <label class="label" for="topics">Topics</label>
-
             <input type="radio" id="business" name="topics" value="business" />
             <label for="business">Business</label>
 

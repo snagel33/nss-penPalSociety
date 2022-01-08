@@ -1,2 +1,7 @@
-@import "serviceForm.css"
+@import "serviceForm.css";
+@import "letters.css";
+
+body {
+    background-color: #ffffff;
+}
 

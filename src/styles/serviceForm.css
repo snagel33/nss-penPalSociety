@@ -18,6 +18,8 @@ div {
 textArea {
     width:700px;
     height: 300px;
+    margin-bottom: 1%;
+    background-color: rgb(255, 255, 255);
 }
 
 .field {
@@ -29,16 +31,7 @@ textArea {
     flex-direction: row;
 }
 
-.letterBox {
-    background-color: rgb(143, 175, 235);
-    width: 690px;
-    margin-left: -40px;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-bottom: 1%;
-}
-
-li {
-    list-style-type: none;
+#head {
+    display: flex;
+    flex-direction: row;
 }
